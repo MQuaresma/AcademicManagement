@@ -83,13 +83,12 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" +
-                "nro='" + nro + '\'' +
-                ", name='" + name + '\'' +
-                ", degree='" + degree + '\'' +
-                ", age=" + age +
-                ", avg=" + avg +
-                '}';
+        return "Student\n" +
+                "ID: " + nro + "\n" +
+                "Name: " + name + "\n" +
+                "Degree: " + degree + "\n" +
+                "Age" + age + "\n" +
+                "Grade avg=" + avg + "\n";
     }
 
     public Aluno clone(){
